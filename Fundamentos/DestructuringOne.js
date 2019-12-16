@@ -13,3 +13,6 @@ console.log(nome, idade);
 
 const { nome: n, idade: i } = pessoa;
 console.log(n, i);
+
+const { sobrenome, bemhumorada = true } = pessoa;
+console.log(sobrenome, bemhumorada);
